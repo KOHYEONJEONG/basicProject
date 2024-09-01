@@ -11,9 +11,6 @@ import java.util.List;
 public class LoginService {
 
     private final LoginRepository loginRepository;
-
-
-
     public List<String> getAllMemberNames() {
         return loginRepository.getAllMemberNames();
     }

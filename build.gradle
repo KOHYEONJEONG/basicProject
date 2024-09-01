@@ -34,7 +34,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 	// 스프링 부트 및 시큐리티
-	implementation 'org.springframework.boot:spring-boot-starter-security'
+	//implementation 'org.springframework.boot:spring-boot-starter-security'
 	// 웹 애플리케이션 개발을 위한 스프링 부트 스타터
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 }
